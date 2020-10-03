@@ -119,12 +119,17 @@ module.exports = {
 }
 ```
 
-## Start app
+## yarn commands
 - > yarn start
 - > yarn android
+- > yarn cache clean
 
+## Clean androind cache
+- > cd android && ./gradlew cleanBuildCache
 
 ## ADB commands
 - > adb kill-server
 - > adb start-server
+- > adb usb
+- > adb reverse tcp:3333 tcp:3333
 - > adb devices
